@@ -108,6 +108,7 @@ class DataViewController: UIViewController, CLLocationManagerDelegate, UITableVi
         let area = areas[indexPath.row]
         print("fnsjbdhoiwrnsf;")
         print(area["Meter_ID"])
+        var city = area["City"] as! String
 //        print("https://data.boston.gov/api/3/action/datastore_search?resource_id=284d1d7b-e3f5-4de7-be32-06b54efeee7f&q=\(area["Meter_ID"] as! NSString)")
         request("https://data.boston.gov/api/3/action/datastore_search?resource_id=284d1d7b-e3f5-4de7-be32-06b54efeee7f&q=\(area["Meter_ID"] as! NSString)").responseJSON { response in
     //            let result = response.result
