@@ -8,21 +8,43 @@
 
 import UIKit
 import MapKit
+import CoreLocation
 
-class dirViewController: UIViewController, MKMapViewDelegate {
+
+class dirViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
     
     @IBOutlet weak var mapKitView: MKMapView!
     
+    var coordinate: CLLocationCoordinate2D! = nil
+    var finalxcor = 0.0
+    var finalycor = 0.0
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let locationManager = CLLocationManager()
+
+        // Can use both when app is open and when app is in background.
+        locationManager.requestAlwaysAuthorization()
+        
+        // Only use when app is open.
+        //locationManager.requestWhenInUseAuthorization()
+        
+        if CLLocationManager.locationServicesEnabled() {
+            locationManager.delegate = self
+            locationManager.desiredAccuracy = kCLLocationAccuracyBest
+            locationManager.startUpdatingLocation()
+        }
         
         mapKitView.delegate = self
         mapKitView.showsScale = true
         mapKitView.showsPointsOfInterest = true
         mapKitView.showsUserLocation = true
 
-        let sourceCoordinates = locationManager.location?.coordinate
-        let destCoordinates = CLLocationCoordinate2DMake(36.1070, -112.1130)
+        //let sourceCoordinates = locationManager.location?.coordinate
+        let sourceCoordinates = coordinate
+        let destCoordinates = CLLocationCoordinate2DMake(finalxcor, finalycor)
         
         let sourcePlacemark = MKPlacemark (coordinate: sourceCoordinates!)
         let destPlacemark = MKPlacemark (coordinate: destCoordinates)
@@ -57,6 +79,8 @@ class dirViewController: UIViewController, MKMapViewDelegate {
         let renderer = MKPolylineRenderer(overlay: overlay)
         renderer.strokeColor = UIColor.blue
         renderer.lineWidth = 5.0
+        
+        return renderer
     }
 
     override func didReceiveMemoryWarning() {

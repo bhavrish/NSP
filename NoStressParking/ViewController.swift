@@ -15,17 +15,18 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
     
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+
     @IBAction func onTapStart(_ sender: Any) {
         performSegue(withIdentifier: "startSegue", sender: nil)
     }
     
     @IBAction func onTapInstructions(_ sender: Any) {
         performSegue(withIdentifier: "instructionsSegue", sender: nil)
+
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
-
 }
 
