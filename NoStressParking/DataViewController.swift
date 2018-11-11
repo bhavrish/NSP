@@ -51,7 +51,7 @@ class DataViewController: UIViewController, CLLocationManagerDelegate, UITableVi
                 let result = response.result
                 print(response)
                 if let dict = result.value as? [String: Any] {
-                    if let innerDict = dict[""] {
+                    if let innerDict = dict["Success"] {
                         self.areas=innerDict as! [[String : Any]]
                         self.infoTableView.reloadData() // table is created before network request is processed, so this function continues to refresh data before finalizing table
                     }
@@ -92,6 +92,16 @@ class DataViewController: UIViewController, CLLocationManagerDelegate, UITableVi
         let cell = tableView.dequeueReusableCell(withIdentifier: "infoCell", for: indexPath) as! infoCell
         
         let area = areas[indexPath.row]
+        request("https://data.boston.gov/api/3/action/datastore_search?resource_id=284d1d7b-e3f5-4de7-be32-06b54efeee7f&q=\(area["Meter_ID"])").responseJSON { response in
+            let result = response.result
+            print(response)
+            if let dict = result.value as? [String: Any] {
+                let innerDict = dict["records"]
+                print(innerDict)
+                //let street = innerDict["STREET"]
+                //let cost = innerDict["PAY_POLICY"]
+            }
+        }
         print(area["Hours_of_Operation"])
         print(area["Rate"])
         cell.timingsLabel.text = area["Hours_of_Operation"] as! String
