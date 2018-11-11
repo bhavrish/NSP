@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		450AE0B321975FD10042C816 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450AE0B221975FD10042C816 /* InformationViewController.swift */; };
+		450AE0B521975FFD0042C816 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450AE0B421975FFD0042C816 /* DataViewController.swift */; };
+		4555747A219793880065E69A /* infoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45557479219793880065E69A /* infoCell.swift */; };
 		456BAE28219732FE00086C07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456BAE27219732FE00086C07 /* AppDelegate.swift */; };
 		456BAE2A219732FE00086C07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456BAE29219732FE00086C07 /* ViewController.swift */; };
 		456BAE2D219732FE00086C07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456BAE2B219732FE00086C07 /* Main.storyboard */; };
@@ -14,6 +17,9 @@
 		456BAE322197330100086C07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456BAE302197330100086C07 /* LaunchScreen.storyboard */; };
 		456BAE3D2197330100086C07 /* NoStressParkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456BAE3C2197330100086C07 /* NoStressParkingTests.swift */; };
 		456BAE482197330200086C07 /* NoStressParkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456BAE472197330200086C07 /* NoStressParkingUITests.swift */; };
+		4624103824058A586C8C535D /* Pods_NoStressParking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C07F08477199FFACDAC036E2 /* Pods_NoStressParking.framework */; };
+		7749FCAEE6DE1795757737BE /* Pods_NoStressParkingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D929B3A080549C808C6C27B7 /* Pods_NoStressParkingTests.framework */; };
+		EE51E17BEF01429B4E4118CD /* Pods_NoStressParkingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36B5FEF5D22F2D9B03801E23 /* Pods_NoStressParkingUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0554C066E6ABBDB203E3793C /* Pods-NoStressParking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoStressParking.release.xcconfig"; path = "Pods/Target Support Files/Pods-NoStressParking/Pods-NoStressParking.release.xcconfig"; sourceTree = "<group>"; };
+		1954853131F9B63117C9856D /* Pods-NoStressParkingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoStressParkingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NoStressParkingTests/Pods-NoStressParkingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		36B5FEF5D22F2D9B03801E23 /* Pods_NoStressParkingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoStressParkingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		450AE0B221975FD10042C816 /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		450AE0B421975FFD0042C816 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		45557479219793880065E69A /* infoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoCell.swift; sourceTree = "<group>"; };
 		456BAE24219732FE00086C07 /* NoStressParking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoStressParking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		456BAE27219732FE00086C07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		456BAE29219732FE00086C07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,12 @@
 		456BAE432197330200086C07 /* NoStressParkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoStressParkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		456BAE472197330200086C07 /* NoStressParkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoStressParkingUITests.swift; sourceTree = "<group>"; };
 		456BAE492197330200086C07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E8E0BBA8B4A3E723207913D /* Pods-NoStressParkingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoStressParkingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NoStressParkingTests/Pods-NoStressParkingTests.release.xcconfig"; sourceTree = "<group>"; };
+		5EEC9A5F731E77C2D198C49D /* Pods-NoStressParkingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoStressParkingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NoStressParkingUITests/Pods-NoStressParkingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7AD28C08EC9C1C1ADD2B5EC6 /* Pods-NoStressParking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoStressParking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NoStressParking/Pods-NoStressParking.debug.xcconfig"; sourceTree = "<group>"; };
+		C07F08477199FFACDAC036E2 /* Pods_NoStressParking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoStressParking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C62B80A4A086954913C42A66 /* Pods-NoStressParkingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoStressParkingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NoStressParkingUITests/Pods-NoStressParkingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D929B3A080549C808C6C27B7 /* Pods_NoStressParkingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoStressParkingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4624103824058A586C8C535D /* Pods_NoStressParking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7749FCAEE6DE1795757737BE /* Pods_NoStressParkingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE51E17BEF01429B4E4118CD /* Pods_NoStressParkingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,8 @@
 				456BAE3B2197330100086C07 /* NoStressParkingTests */,
 				456BAE462197330200086C07 /* NoStressParkingUITests */,
 				456BAE25219732FE00086C07 /* Products */,
+				F835EE78F7DCB22B7C43E3BD /* Pods */,
+				591F9BB9B5E7D5C6B582A95D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +120,12 @@
 		456BAE26219732FE00086C07 /* NoStressParking */ = {
 			isa = PBXGroup;
 			children = (
+				45557479219793880065E69A /* infoCell.swift */,
 				456BAE27219732FE00086C07 /* AppDelegate.swift */,
 				456BAE29219732FE00086C07 /* ViewController.swift */,
 				456BAE2B219732FE00086C07 /* Main.storyboard */,
+				450AE0B421975FFD0042C816 /* DataViewController.swift */,
+				450AE0B221975FD10042C816 /* InformationViewController.swift */,
 				456BAE2E2197330100086C07 /* Assets.xcassets */,
 				456BAE302197330100086C07 /* LaunchScreen.storyboard */,
 				456BAE332197330100086C07 /* Info.plist */,
@@ -125,6 +151,29 @@
 			path = NoStressParkingUITests;
 			sourceTree = "<group>";
 		};
+		591F9BB9B5E7D5C6B582A95D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C07F08477199FFACDAC036E2 /* Pods_NoStressParking.framework */,
+				D929B3A080549C808C6C27B7 /* Pods_NoStressParkingTests.framework */,
+				36B5FEF5D22F2D9B03801E23 /* Pods_NoStressParkingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F835EE78F7DCB22B7C43E3BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AD28C08EC9C1C1ADD2B5EC6 /* Pods-NoStressParking.debug.xcconfig */,
+				0554C066E6ABBDB203E3793C /* Pods-NoStressParking.release.xcconfig */,
+				1954853131F9B63117C9856D /* Pods-NoStressParkingTests.debug.xcconfig */,
+				4E8E0BBA8B4A3E723207913D /* Pods-NoStressParkingTests.release.xcconfig */,
+				C62B80A4A086954913C42A66 /* Pods-NoStressParkingUITests.debug.xcconfig */,
+				5EEC9A5F731E77C2D198C49D /* Pods-NoStressParkingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 456BAE4C2197330200086C07 /* Build configuration list for PBXNativeTarget "NoStressParking" */;
 			buildPhases = (
+				CE8CD6EDE9B6AEFBE155C690 /* [CP] Check Pods Manifest.lock */,
 				456BAE20219732FE00086C07 /* Sources */,
 				456BAE21219732FE00086C07 /* Frameworks */,
 				456BAE22219732FE00086C07 /* Resources */,
+				1E190E8782101F1850958443 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 456BAE4F2197330200086C07 /* Build configuration list for PBXNativeTarget "NoStressParkingTests" */;
 			buildPhases = (
+				9BD69C9D3BEA4D2A28E8D56A /* [CP] Check Pods Manifest.lock */,
 				456BAE342197330100086C07 /* Sources */,
 				456BAE352197330100086C07 /* Frameworks */,
 				456BAE362197330100086C07 /* Resources */,
@@ -167,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 456BAE522197330200086C07 /* Build configuration list for PBXNativeTarget "NoStressParkingUITests" */;
 			buildPhases = (
+				94B4CE747FEB9D90C17078BD /* [CP] Check Pods Manifest.lock */,
 				456BAE3F2197330100086C07 /* Sources */,
 				456BAE402197330100086C07 /* Frameworks */,
 				456BAE412197330100086C07 /* Resources */,
@@ -251,13 +304,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E190E8782101F1850958443 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NoStressParking/Pods-NoStressParking-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NoStressParking/Pods-NoStressParking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94B4CE747FEB9D90C17078BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NoStressParkingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BD69C9D3BEA4D2A28E8D56A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NoStressParkingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE8CD6EDE9B6AEFBE155C690 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NoStressParking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		456BAE20219732FE00086C07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				450AE0B521975FFD0042C816 /* DataViewController.swift in Sources */,
 				456BAE2A219732FE00086C07 /* ViewController.swift in Sources */,
 				456BAE28219732FE00086C07 /* AppDelegate.swift in Sources */,
+				450AE0B321975FD10042C816 /* InformationViewController.swift in Sources */,
+				4555747A219793880065E69A /* infoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +559,7 @@
 		};
 		456BAE4D2197330200086C07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AD28C08EC9C1C1ADD2B5EC6 /* Pods-NoStressParking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +577,7 @@
 		};
 		456BAE4E2197330200086C07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0554C066E6ABBDB203E3793C /* Pods-NoStressParking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -462,6 +595,7 @@
 		};
 		456BAE502197330200086C07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1954853131F9B63117C9856D /* Pods-NoStressParkingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +616,7 @@
 		};
 		456BAE512197330200086C07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E8E0BBA8B4A3E723207913D /* Pods-NoStressParkingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +637,7 @@
 		};
 		456BAE532197330200086C07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C62B80A4A086954913C42A66 /* Pods-NoStressParkingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +657,7 @@
 		};
 		456BAE542197330200086C07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EEC9A5F731E77C2D198C49D /* Pods-NoStressParkingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

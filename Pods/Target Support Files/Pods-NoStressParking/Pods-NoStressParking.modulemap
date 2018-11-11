@@ -1,0 +1,6 @@
+framework module Pods_NoStressParking {
+  umbrella header "Pods-NoStressParking-umbrella.h"
+
+  export *
+  module * { export * }
+}
