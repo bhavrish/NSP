@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		450AE0B321975FD10042C816 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450AE0B221975FD10042C816 /* InformationViewController.swift */; };
 		450AE0B521975FFD0042C816 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450AE0B421975FFD0042C816 /* DataViewController.swift */; };
+		4522F4AF219864FE0059138C /* dirViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522F4AE219864FE0059138C /* dirViewController.swift */; };
 		4555747A219793880065E69A /* infoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45557479219793880065E69A /* infoCell.swift */; };
 		456BAE28219732FE00086C07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456BAE27219732FE00086C07 /* AppDelegate.swift */; };
 		456BAE2A219732FE00086C07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456BAE29219732FE00086C07 /* ViewController.swift */; };
@@ -45,6 +46,7 @@
 		36B5FEF5D22F2D9B03801E23 /* Pods_NoStressParkingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoStressParkingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		450AE0B221975FD10042C816 /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
 		450AE0B421975FFD0042C816 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		4522F4AE219864FE0059138C /* dirViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dirViewController.swift; sourceTree = "<group>"; };
 		45557479219793880065E69A /* infoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoCell.swift; sourceTree = "<group>"; };
 		456BAE24219732FE00086C07 /* NoStressParking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoStressParking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		456BAE27219732FE00086C07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				456BAE27219732FE00086C07 /* AppDelegate.swift */,
 				456BAE29219732FE00086C07 /* ViewController.swift */,
 				456BAE2B219732FE00086C07 /* Main.storyboard */,
+				4522F4AE219864FE0059138C /* dirViewController.swift */,
 				450AE0B421975FFD0042C816 /* DataViewController.swift */,
 				450AE0B221975FD10042C816 /* InformationViewController.swift */,
 				456BAE2E2197330100086C07 /* Assets.xcassets */,
@@ -388,6 +391,7 @@
 				456BAE2A219732FE00086C07 /* ViewController.swift in Sources */,
 				456BAE28219732FE00086C07 /* AppDelegate.swift in Sources */,
 				450AE0B321975FD10042C816 /* InformationViewController.swift in Sources */,
+				4522F4AF219864FE0059138C /* dirViewController.swift in Sources */,
 				4555747A219793880065E69A /* infoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

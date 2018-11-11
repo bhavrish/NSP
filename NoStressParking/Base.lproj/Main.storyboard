@@ -155,11 +155,36 @@
                     </view>
                     <connections>
                         <outlet property="infoTableView" destination="WL8-cd-lCi" id="Khb-kv-sPU"/>
+                        <segue destination="s9g-FX-YIN" kind="show" id="yy1-Iz-oNu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V39-EU-oEZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2050.7246376811595" y="-60.326086956521742"/>
+        </scene>
+        <!--Dir View Controller-->
+        <scene sceneID="a8h-K3-OfT">
+            <objects>
+                <viewController id="s9g-FX-YIN" customClass="dirViewController" customModule="NoStressParking" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gTH-Hm-CWo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="mV7-wX-ePp">
+                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="DD3-Qz-hYn"/>
+                    </view>
+                    <connections>
+                        <outlet property="mapKitView" destination="mV7-wX-ePp" id="Khp-3k-89E"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hF0-VV-jP2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2917.3913043478265" y="-54.619565217391312"/>
         </scene>
         <!--Information-->
         <scene sceneID="vbe-qS-JcM">
@@ -172,7 +197,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cua-zN-2sT">
                                 <rect key="frame" x="27" y="79" width="367" height="624"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Many times when we try to park our cars in the streets, the signs are unclear which leads to confusion on whether one can park at that location. This app will help you to figure out whether you can park at a location and whether the parking is free. Additionally, this app will use machine learning to predict the percentage chance of parking at locatios near you. To use this app, press Start in the main menu, which will prompt you to give the app access to your location. Afterwards data about parking locations near you will be posted.</mutableString>
+                                <string key="text">Many times when we try to park our cars in the streets, the signs are unclear which leads to confusion on whether one can park at that location. This app will help you to figure out whether you can park at a location and whether the parking is free. Additionally, this app will use machine learning to predict the percentage chance of parking at locatios near you. To use this app, press Start in the main menu, which will prompt you to give the app access to your location. Afterwards data about parking locations near you will be posted.</string>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
                                 <color key="textColor" red="1" green="0.81070303420000001" blue="0.093513745400000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
