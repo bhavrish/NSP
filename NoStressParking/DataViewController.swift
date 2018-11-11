@@ -17,7 +17,7 @@ class DataViewController: UIViewController, CLLocationManagerDelegate, UITableVi
     var areas: [[String: Any]] = []
     var refreshControl: UIRefreshControl!
 
-    
+    let apiKey = "rETGFuHGt4miUZZqWYQ5SywFG7Ynx1ek"
     let locationManager = CLLocationManager()
     var lat = 15.1515
     var lon = 51.5151
@@ -47,10 +47,10 @@ class DataViewController: UIViewController, CLLocationManagerDelegate, UITableVi
             print(location.coordinate)
             lat = location.coordinate.latitude
             lon = location.coordinate.longitude
-            request("https://www.httpbin.org/get?lat=\(lat)&lon=\(lon)").responseJSON { response in
+            request("https://apis.solarialabs.com/shine/v1/parking-rules/meters?lat=\(lat)&lon=\(lon)&maxresults=\(5)&apikey=\(apiKey)").responseJSON { response in
                 let result = response.result
                 if let dict = result.value as? [String: Any] {
-                    if let innerDict = dict["areas"] {
+                    if let innerDict = dict["Meters"] {
                         self.areas=innerDict as! [[String : Any]]
                         self.infoTableView.reloadData() // table is created before network request is processed, so this function continues to refresh data before finalizing table
                     }
@@ -91,9 +91,12 @@ class DataViewController: UIViewController, CLLocationManagerDelegate, UITableVi
         let cell = tableView.dequeueReusableCell(withIdentifier: "infoCell", for: indexPath) as! infoCell
         
         let area = areas[indexPath.row]
-        cell.timingsLabel.text = area["PARK_NO_PAY"] as! String
-        cell.costLabel.text = area["PAY_POLICY"] as! String
-        cell.probabilityLabel.text = area["PERCENTAGE"] as! String
+        print(area)
+        //print(area["Hours_of_Operation"])
+        //print(area["Rate"])
+        cell.timingsLabel.text = area["Hours_of_Operation"] as! String
+        cell.costLabel.text = area["Rate"] as! String
+        //cell.probabilityLabel.text = area["PERCENTAGE"] as! String
         
         return cell
     }
